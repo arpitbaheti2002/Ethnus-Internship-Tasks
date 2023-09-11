@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <style>
+    body{
+      text-align: center;
+    }
+
+    .external-box-vertical{
+      border: 1px black solid;
+      padding: 10px;
+      width: 310px;
+      margin: auto;
+    }
+
+    .vertical-navbar{
+      border: 1px black solid;
+      background-color: skyblue;
+    }
+
+    .nav-item{
+      text-align: left;
+      padding: 15px;
+      font-size: 20px;
+      color: blue;
+    }
+
+    .vertical-navbar .nav-item:hover{
+      background-color: orange;
+      color: white;
+    }
+
+    .external-box-horizontal{
+      display: inline-block;
+      border: 1px black solid;
+      padding: 10px;
+    }
+
+    .horizontal-navbar{
+      background-color: gainsboro;
+    }
+
+    .horizontal-navbar div{
+      display: inline-block;
+      border-left: 1px blue solid;
+    }
+
+    .horizontal-navbar div:hover{
+      background-color: gray;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h2>Vertical Navigation Bar</h2>
+  <div class="external-box-vertical">
+    <div class="vertical-navbar">
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Java</div>
+      <div class="nav-item">CSS</div>
+      <div class="nav-item">HTML</div>
+      <div class="nav-item">Bootstrap</div>
+    </div>
+  </div>
+
+  <br />
+  <br />
+
+  <h2>Horizontal Navigation Bar</h2>
+  <div class="external-box-horizontal">
+    <div class="horizontal-navbar">
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Java</div>
+      <div class="nav-item">CSS</div>
+      <div class="nav-item">HTML</div>
+      <div class="nav-item">Bootstrap</div>
+    </div>
+  </div>
+</body>
+</html>
