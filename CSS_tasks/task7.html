@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 7</title>
+  <style>
+    body{
+      padding: 5% 18%;
+    }
+
+    input {
+      margin: 10px;
+    }
+
+    .content{
+      background-color: rgb(168, 44, 84);
+      padding: 5% 15%;
+    }
+
+    .form{
+      padding: 5% 10%;
+      background-color: rgb(120,36,60);
+      color: white;
+      font-size: 120%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .textbox{
+      height: 30px;
+      width: 280px;
+    }
+
+    select{
+      height: 30px;
+    }
+
+    .message-box{
+      width: 98%;
+    }
+
+    .submit-btn{
+      width: 100%;
+      height: 40px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="form">
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input class="textbox" type="text" name="name" placeholder="your name"></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input class="textbox" type="email" name="email" placeholder="your email"></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input class="textbox" type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td>Phone Number:</td>
+          <td><input class="textbox" type="number" name="phone number"></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <label>Male:</label>
+            <input class="radiobtn" type="radio">
+            <label>Female:</label>
+            <input class="radiobtn" type="radio">
+            <label>Other:</label>
+            <input class="radiobtn" type="radio">
+          </td>
+        </tr>
+        <tr>
+          <td>language</td>
+          <td>
+            <select>
+              <option>Select language</option>
+              <option>Hindi</option>
+              <option>English</option>
+              <option>Urdu</option>
+              <option>Punjabi</option>
+              <option>French</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Zip Code:</td>
+          <td>
+            <input class="textbox" type="number">
+          </td>
+        </tr>
+        <tr>
+          <td>About:</td>
+          <td>
+            <textarea class="message-box" placeholder="Write abit yourself..." rows="2"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input class="submit-btn" type="submit" value="Register"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
